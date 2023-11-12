@@ -34,9 +34,9 @@ sudo apt install virtualbox virtualbox-dkms virtualbox-ext-pack virtualbox-guest
 # netsec tools
 sudo apt install dirb remmina hydra nikto steghide stegosuite mtr-tiny aircrack-ng wireshark radare2 bison hashcat
 
-# Move vim and tmux settings
-cp tmux.conf ~/.tmux.conf
-cp vimrc ~/.vimrc
+# Link vim and tmux settings
+ln -S tmux.conf ~/.tmux.conf
+ln -S vimrc ~/.vimrc
 
 # install from scripts:
 # zsh
